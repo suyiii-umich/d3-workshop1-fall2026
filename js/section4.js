@@ -165,3 +165,11 @@ gasSvg.append('text')
     .attr('y', gasHeight + 45)
     .attr('text-anchor', 'middle')
     .text('Gas Price');
+
+// Y axis label
+gasSvg.append('text')
+    .attr('transform', 'rotate(-90)')
+    .attr('x', -gasHeight / 2)
+    .attr('y', -80)
+    .attr('text-anchor', 'middle')
+    .text('State');
